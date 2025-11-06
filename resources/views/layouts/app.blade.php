@@ -332,7 +332,9 @@
     <ul>
         <li><a href="{{ route('products.index') }}">📦 Productos</a></li>
         <li><a href="{{ route('categories.index') }}">🏷️ Categorías</a></li>
-        <li><a href="#">🛒 Ventas</a></li>
+        <li><a href="{{ route('customers.index') }}">👥 ️Clientes</a></li>
+        <li><a href="{{ route('sales.create') }}">🛒 **Nueva Venta (POS)**</a></li>
+        <li><a href="{{ route('sales.index') }}">🧾 **Historial de Ventas**</a></li>
         <li><a href="#">⚙️ Config</a></li>
     </ul>
 </nav>
