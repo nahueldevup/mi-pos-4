@@ -1,5 +1,5 @@
 <?php
-
+//php artisan make:livewire ShowCustomers
 namespace App\Livewire;
 
 use App\Models\Customer;
